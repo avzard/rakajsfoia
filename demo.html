@@ -1,0 +1,27 @@
+@page "/login"
+
+<div>
+<MudCard Class="main">
+        <form class="input-group">
+        <MudForm Class="container">
+            <MudCardContent>
+                <div>
+                    <h3 class="title">Login</h3>
+                    <h1 class="subtitle">Welcome to GMR, please put your login credentials below t0 Start using the app</h1>
+                </div>
+                <div class="text">
+                        <MudTextField Class="text" @bind-Value="Username" Label="Username" Variant="Variant.Text"></MudTextField>
+                        <MudTextField Class="text" @bind-Value="Password" Label="Password" Variant="Variant.Text"></MudTextField>
+                </div>
+                    <h1 class="forget">Forget Password?</h1>
+                <MudButton   Variant="Variant.Filled" Color="Color.Primary-100" FullWidth="true">Login</MudButton>
+                
+            </MudCardContent>
+        </MudForm>
+     </form>
+</MudCard>
+</div>
+@code {
+    public string Username { get; set; }
+    public string Password { get; set; }
+}
