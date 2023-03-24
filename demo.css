@@ -1,0 +1,94 @@
+
+.container {
+    height: 627px;
+    width: 610px;
+    left: 655px;
+    top: 226px;
+    border-radius: 16px;
+    padding: 64px;
+    display: grid grid-auto-flow;
+    column grid-column-gap: 10px;
+    flex-direction: column;
+}
+.MudCard {
+    display: table-cell;
+    vertical-align: middle;
+}
+::deep .mud-card-content {
+    background-color: #1E1E1E;
+    height: 627px;
+    width: 610px;
+    left: 655px;
+    top: 226px;
+    border-radius: 16px;
+    padding: 64px;
+}
+::deep .mud-input-control > .mud-input-control-input-container {
+    position: center;
+    display: flex;
+    flex-direction: column;
+    background: #282D34;
+    border-radius: 4px 4px 0px 0px;
+    padding: 5px;
+}
+::deep .mud-paper {
+    padding-bottom:20px;
+    color: white !important;
+    color: var(--mud-palette-text-primary);
+    background-color: var(--mud-palette-surface);
+    border-radius: var(--mud-default-borderradius);
+    transition: box-shadow 300ms cubic-bezier(.4,0,.2,1) 0ms;
+}
+::deep .mud-ripple {
+    position: relative;
+    background-color: #78BE44;
+    overflow: hidden;
+}
+.text{
+    position:relative;
+    padding-bottom:50px;
+}
+.input-group {
+    top: 190px;
+    position: absolute;
+    width: 480px;
+    transition: -5s;
+    margin-top: -72px;
+    margin-left: 38px;
+}
+.title {
+    box-shadow: 0px 2px 5px rgba(60, 66, 87, 0.04), 0px 0px 0px 1px rgba(60, 66, 87, 0.08), 0px 1px 1px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #78BE44;
+    padding-bottom: 20px;
+}
+.subtitle {
+    
+    right: 8.69%;
+    top: 30.46%;
+    bottom: 66.99%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding-bottom:30px;
+}
+.forget {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #78BE44;
+    width: 112px;
+    height: 16px;
+    padding-bottom:100px;
+}
